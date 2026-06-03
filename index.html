@@ -1,197 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dhyan | Engineering Student</title>
-
-<style>
-    *{
-        margin:0;
-        padding:0;
-        box-sizing:border-box;
-        font-family: 'Segoe UI', sans-serif;
-    }
-
-    body{
-        background:#0f172a;
-        color:white;
-        line-height:1.6;
-    }
-
-    header{
-        min-height:100vh;
-        display:flex;
-        flex-direction:column;
-        justify-content:center;
-        align-items:center;
-        text-align:center;
-        padding:20px;
-        background:linear-gradient(135deg,#0f172a,#1e293b,#2563eb);
-    }
-
-    header h1{
-        font-size:4rem;
-        margin-bottom:10px;
-    }
-
-    header p{
-        font-size:1.2rem;
-        max-width:700px;
-        opacity:0.9;
-    }
-
-    .btn{
-        margin-top:25px;
-        padding:12px 25px;
-        border:none;
-        border-radius:30px;
-        background:white;
-        color:#2563eb;
-        font-weight:bold;
-        cursor:pointer;
-        transition:.3s;
-    }
-
-    .btn:hover{
-        transform:translateY(-3px);
-    }
-
-    section{
-        padding:80px 10%;
-    }
-
-    .section-title{
-        text-align:center;
-        margin-bottom:40px;
-        font-size:2rem;
-        color:#60a5fa;
-    }
-
-    .about{
-        display:grid;
-        grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-        gap:30px;
-    }
-
-    .card{
-        background:#1e293b;
-        padding:25px;
-        border-radius:15px;
-        transition:.3s;
-    }
-
-    .card:hover{
-        transform:translateY(-5px);
-    }
-
-    .skills{
-        display:flex;
-        flex-wrap:wrap;
-        gap:15px;
-        justify-content:center;
-    }
-
-    .skill{
-        background:#2563eb;
-        padding:10px 18px;
-        border-radius:25px;
-    }
-
-    footer{
-        text-align:center;
-        padding:30px;
-        background:#020617;
-        color:#94a3b8;
-    }
-
-    #quote{
-        font-style:italic;
-        color:#cbd5e1;
-        margin-top:15px;
-    }
-</style>
+    <meta charset="UTF-8">
+    <title>Dhyandev K | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header>
-    <h1>Hi, I'm Dhyan</h1>
-    <p>
-        Engineering Student at SSM Polytechnic College, Tirur.
-        Passionate about technology, learning new skills, and building a strong future in engineering.
-    </p>
+<div class="cursor"></div>
 
-    <button class="btn" onclick="showQuote()">
-        Inspire Me
-    </button>
+<nav>
+    <div class="logo">Dhyandev K</div>
 
-    <p id="quote"></p>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<header class="hero">
+
+    <div class="hero-content">
+
+        <span class="badge">
+            EEE Student • Technology Intern • NSS Volunteer
+        </span>
+
+        <h1>Dhyandev K</h1>
+
+        <h2>
+            Electrical & Electronics Engineering Student
+        </h2>
+
+        <p>
+            Passionate about Electrical Engineering, Programming,
+            AI Technologies, Hardware Systems and Community Service.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#contact" class="btn">Contact Me</a>
+            <a href="https://github.com/dhyandev817-debug" class="btn secondary">
+                GitHub
+            </a>
+        </div>
+
+    </div>
+
 </header>
 
-<section>
+<section id="about" class="reveal">
+
     <h2 class="section-title">About Me</h2>
 
-    <div class="about">
-        <div class="card">
-            <h3>Student</h3>
-            <p>
-                Currently pursuing engineering studies at
-                SSM Polytechnic College, Tirur.
-            </p>
-        </div>
+    <div class="glass-card">
 
-        <div class="card">
-            <h3>Goals</h3>
-            <p>
-                To develop technical expertise, gain practical experience,
-                and contribute to innovative engineering solutions.
-            </p>
-        </div>
+        <p>
+            I am Dhyandev K from Perunthallur, Kerala.
+            Currently pursuing Diploma in Electrical and Electronics
+            Engineering at SSM Polytechnic College, Tirur.
 
-        <div class="card">
-            <h3>Interests</h3>
-            <p>
-                Technology, programming, engineering projects,
-                problem solving, and continuous learning.
-            </p>
-        </div>
+            I have completed a Python Programming Certification,
+            possess knowledge of HTML, C++, GnuKhata Accounting Software,
+            and actively participate as an NSS Volunteer.
+
+            I enjoy reading, watching movies and anime,
+            exploring technology, and continuously learning new skills.
+        </p>
+
     </div>
+
 </section>
 
-<section>
-    <h2 class="section-title">Skills & Learning</h2>
+<section id="education" class="reveal">
 
-    <div class="skills">
-        <div class="skill">Engineering</div>
-        <div class="skill">Problem Solving</div>
-        <div class="skill">Technology</div>
-        <div class="skill">Programming</div>
-        <div class="skill">Learning</div>
-        <div class="skill">Innovation</div>
+    <h2 class="section-title">Education</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-card">
+            <h3>KHMHSS</h3>
+            <p>10th Standard</p>
+        </div>
+
+        <div class="timeline-card">
+            <h3>GHSS Purathur</h3>
+            <p>Higher Secondary Education</p>
+        </div>
+
+        <div class="timeline-card">
+            <h3>SSM Polytechnic College</h3>
+            <p>Diploma in EEE</p>
+            <p>Current Semester: 3</p>
+        </div>
+
     </div>
+
+</section>
+
+<section id="skills" class="reveal">
+
+    <h2 class="section-title">Skills</h2>
+
+    <div class="card-grid">
+
+        <div class="skill-card">Python</div>
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">C++</div>
+        <div class="skill-card">GnuKhata</div>
+        <div class="skill-card">Electrical Fundamentals</div>
+        <div class="skill-card">Electronics</div>
+        <div class="skill-card">Communication</div>
+        <div class="skill-card">Active Listening</div>
+        <div class="skill-card">Leadership</div>
+        <div class="skill-card">Problem Solving</div>
+
+    </div>
+
+</section>
+
+<section id="experience" class="reveal">
+
+    <h2 class="section-title">Experience</h2>
+
+    <div class="card-grid">
+
+        <div class="glass-card">
+            <h3>Technology Internship</h3>
+            <ul>
+                <li>Driver Installation</li>
+                <li>Autonomous Hardware Orchestration</li>
+                <li>AI Asset Generation</li>
+                <li>Tech Startup Modeling</li>
+            </ul>
+        </div>
+
+        <div class="glass-card">
+            <h3>NSS Volunteer</h3>
+
+            <p>
+                Participating in community service activities,
+                awareness campaigns and social welfare initiatives.
+            </p>
+        </div>
+
+        <div class="glass-card">
+            <h3>Certification</h3>
+
+            <p>Python Programming Certificate</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact" class="reveal">
+
+    <h2 class="section-title">Contact</h2>
+
+    <div class="glass-card contact-card">
+
+        <p>📧 dhyandev817@gmail.com</p>
+        <p>📍 Perunthallur, Kerala</p>
+        <p>💻 GitHub: dhyandev817-debug</p>
+
+    </div>
+
 </section>
 
 <footer>
-    <p>© <span id="year"></span> Dhyan • Personal Portfolio</p>
+    © 2026 Dhyandev K | Portfolio
 </footer>
 
-<script>
-const quotes = [
-    "Success is built one step at a time.",
-    "Learning never exhausts the mind.",
-    "Great engineers solve real problems.",
-    "Consistency beats intensity.",
-    "Every project is an opportunity to grow."
-];
-
-function showQuote(){
-    const random = Math.floor(Math.random() * quotes.length);
-    document.getElementById("quote").textContent = quotes[random];
-}
-
-document.getElementById("year").textContent =
-    new Date().getFullYear();
-</script>
+<script src="script.js"></script>
 
 </body>
 </html>
