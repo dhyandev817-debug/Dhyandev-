@@ -1,171 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Dhyandev K | Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dhyandev K | EEE Student Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="cursor"></div>
+<!-- Animated Background -->
+<div class="background">
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+    <div class="blob blob3"></div>
+</div>
 
-<nav>
-    <div class="logo">Dhyandev K</div>
+<!-- Navbar -->
+
+<nav class="navbar">
+
+    <div class="logo">
+        DHYANDEV
+    </div>
 
     <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
+
 </nav>
 
-<header class="hero">
+<!-- Hero -->
 
-    <div class="hero-content">
+<section class="hero">
 
-        <span class="badge">
-            EEE Student • Technology Intern • NSS Volunteer
+    <div class="hero-left">
+
+        <span class="tag">
+            ⚡ EEE Student • 🚀 Tech Intern • 🤝 NSS Volunteer
         </span>
 
-        <h1>Dhyandev K</h1>
+        <h1>
+            Hi, I'm
+            <span>Dhyandev K</span>
+        </h1>
 
         <h2>
             Electrical & Electronics Engineering Student
         </h2>
 
         <p>
-            Passionate about Electrical Engineering, Programming,
-            AI Technologies, Hardware Systems and Community Service.
+            Passionate about Programming, AI Technologies,
+            Hardware Systems, Electronics and Innovation.
         </p>
 
-        <div class="hero-buttons">
-            <a href="#contact" class="btn">Contact Me</a>
-            <a href="https://github.com/dhyandev817-debug" class="btn secondary">
-                GitHub
+        <div class="buttons">
+
+            <a href="#projects" class="btn">
+                View Projects
             </a>
+
+            <a href="#contact" class="btn-outline">
+                Contact Me
+            </a>
+
         </div>
 
     </div>
 
-</header>
+    <div class="hero-right">
 
-<section id="about" class="reveal">
+        <div class="profile-card">
 
-    <h2 class="section-title">About Me</h2>
+            <div class="profile-ring"></div>
+
+            <img
+                src="profile.jpg"
+                alt="Dhyandev K">
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Stats -->
+
+<section class="stats">
+
+    <div class="stat">
+        <h2>3rd</h2>
+        <p>Semester</p>
+    </div>
+
+    <div class="stat">
+        <h2>1+</h2>
+        <p>Certification</p>
+    </div>
+
+    <div class="stat">
+        <h2>NSS</h2>
+        <p>Volunteer</p>
+    </div>
+
+    <div class="stat">
+        <h2>Tech</h2>
+        <p>Internship</p>
+    </div>
+
+</section>
+
+<!-- About -->
+
+<section id="about">
+
+    <h2 class="title">About Me</h2>
 
     <div class="glass-card">
 
         <p>
             I am Dhyandev K from Perunthallur, Kerala.
-            Currently pursuing Diploma in Electrical and Electronics
-            Engineering at SSM Polytechnic College, Tirur.
+            Currently pursuing Diploma in Electrical &
+            Electronics Engineering at SSM Polytechnic
+            College, Tirur.
 
-            I have completed a Python Programming Certification,
-            possess knowledge of HTML, C++, GnuKhata Accounting Software,
-            and actively participate as an NSS Volunteer.
-
-            I enjoy reading, watching movies and anime,
-            exploring technology, and continuously learning new skills.
+            Skilled in Python, HTML, C++ and GnuKhata.
+            Strong communication skills, active listening,
+            leadership and teamwork abilities.
         </p>
 
     </div>
 
 </section>
 
-<section id="education" class="reveal">
+<!-- Education -->
 
-    <h2 class="section-title">Education</h2>
+<section id="education">
+
+    <h2 class="title">Education</h2>
 
     <div class="timeline">
 
-        <div class="timeline-card">
+        <div class="edu-card">
             <h3>KHMHSS</h3>
             <p>10th Standard</p>
         </div>
 
-        <div class="timeline-card">
+        <div class="edu-card">
             <h3>GHSS Purathur</h3>
-            <p>Higher Secondary Education</p>
+            <p>Higher Secondary</p>
         </div>
 
-        <div class="timeline-card">
+        <div class="edu-card">
             <h3>SSM Polytechnic College</h3>
             <p>Diploma in EEE</p>
-            <p>Current Semester: 3</p>
+            <p>Current Semester : 3</p>
         </div>
 
     </div>
 
 </section>
 
-<section id="skills" class="reveal">
+<!-- Skills -->
 
-    <h2 class="section-title">Skills</h2>
+<section id="skills">
 
-    <div class="card-grid">
+    <h2 class="title">Skills</h2>
 
-        <div class="skill-card">Python</div>
-        <div class="skill-card">HTML</div>
-        <div class="skill-card">C++</div>
-        <div class="skill-card">GnuKhata</div>
-        <div class="skill-card">Electrical Fundamentals</div>
-        <div class="skill-card">Electronics</div>
-        <div class="skill-card">Communication</div>
-        <div class="skill-card">Active Listening</div>
-        <div class="skill-card">Leadership</div>
-        <div class="skill-card">Problem Solving</div>
+    <div class="skills-grid">
+
+        <div class="skill-card">🐍 Python</div>
+        <div class="skill-card">🌐 HTML</div>
+        <div class="skill-card">💻 C++</div>
+        <div class="skill-card">📊 GnuKhata</div>
+        <div class="skill-card">⚡ Electrical Fundamentals</div>
+        <div class="skill-card">🔌 Electronics</div>
+        <div class="skill-card">🎤 Communication</div>
+        <div class="skill-card">👂 Active Listening</div>
+        <div class="skill-card">🤝 Teamwork</div>
+        <div class="skill-card">🚀 Leadership</div>
 
     </div>
 
 </section>
 
-<section id="experience" class="reveal">
+<!-- Experience -->
 
-    <h2 class="section-title">Experience</h2>
+<section id="experience">
 
-    <div class="card-grid">
+    <h2 class="title">Experience</h2>
+
+    <div class="experience-grid">
 
         <div class="glass-card">
+
             <h3>Technology Internship</h3>
+
             <ul>
                 <li>Driver Installation</li>
                 <li>Autonomous Hardware Orchestration</li>
                 <li>AI Asset Generation</li>
                 <li>Tech Startup Modeling</li>
             </ul>
+
         </div>
 
         <div class="glass-card">
+
             <h3>NSS Volunteer</h3>
 
             <p>
-                Participating in community service activities,
-                awareness campaigns and social welfare initiatives.
+                Active participant in community service,
+                awareness programs and leadership activities.
             </p>
+
         </div>
 
         <div class="glass-card">
+
             <h3>Certification</h3>
 
-            <p>Python Programming Certificate</p>
+            <p>
+                Python Programming Certificate
+            </p>
+
         </div>
 
     </div>
 
 </section>
 
-<section id="contact" class="reveal">
+<!-- Projects -->
 
-    <h2 class="section-title">Contact</h2>
+<section id="projects">
 
-    <div class="glass-card contact-card">
+    <h2 class="title">Projects</h2>
+
+    <div class="projects-grid">
+
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Modern responsive portfolio website.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Python Projects</h3>
+            <p>Upcoming automation and utility tools.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>EEE Projects</h3>
+            <p>Electrical and electronics mini projects.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Contact -->
+
+<section id="contact">
+
+    <h2 class="title">Contact</h2>
+
+    <div class="glass-card">
+
+        <h3>Dhyandev K</h3>
 
         <p>📧 dhyandev817@gmail.com</p>
+
         <p>📍 Perunthallur, Kerala</p>
+
         <p>💻 GitHub: dhyandev817-debug</p>
 
     </div>
@@ -173,7 +285,13 @@
 </section>
 
 <footer>
-    © 2026 Dhyandev K | Portfolio
+
+    <h3>Dhyandev K</h3>
+
+    <p>
+        Electrical & Electronics Engineering Student
+    </p>
+
 </footer>
 
 <script src="script.js"></script>
